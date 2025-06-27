@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+details {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    word-break: break-all;
+}
+.good {
+    color: green;
+}
+.bad {
+    color: red;
+}
